@@ -18,7 +18,7 @@ let random = System.Random()
 let mutable utcNow = fun () -> System.DateTimeOffset.UtcNow
 
 /// From the TCP module, keeps track of the number of clients
-let internal numberOfClients = ref 0L
+let numberOfClients = ref 0L
 
 open System.Collections.Concurrent
 
